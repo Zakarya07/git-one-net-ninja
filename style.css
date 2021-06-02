@@ -15,3 +15,16 @@ nav ul {
     align-items: center;
     height: 100%;
 }
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    text-transform:capitalize;
+    font-size: 1.25em;
+    font-family: Arial;
+}
+
