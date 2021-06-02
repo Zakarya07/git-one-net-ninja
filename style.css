@@ -31,6 +31,7 @@ nav ul li a{
 
 header{
     display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content:space-evenly;
     height: 75vh;
@@ -40,4 +41,16 @@ header{
     background-position:center 72.5%;
     color: white;
     text-align: center;
+}
+
+
+header button{
+    display: inline-block;
+    min-width: 5%;
+    padding: .25em 2em;
+    font-size: 1.1em;
+    background: #6a8;
+    color: white;
+    border: none;
+    border-radius: 5px;
 }
