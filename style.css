@@ -3,3 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+nav{
+    background-color: lightcyan;
+    height: 5vh;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
