@@ -1,15 +1,20 @@
 
-let button = document.querySelector("header button");
-
-
-button.addEventListener("click",()=>{
-    alert("Clicked");
-})
-
+let button = document.querySelector("body button");
 let header = document.querySelector("header");
 const message =document.querySelector("p.message");
-
 let links = document.querySelectorAll("nav ul li a");
+
+button.addEventListener("click",()=>{
+    header.classList.toggle("header_one_hundred_vh");
+    if (button.textContent == "Stretch header") {
+        button.textContent = "Unstretch";
+    }
+    else{
+        button.textContent = "Stretch header"
+    }
+})
+
+
 
 links.forEach(link=>{
     console.log(link);
