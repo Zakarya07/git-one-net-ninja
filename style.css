@@ -54,3 +54,29 @@ header button{
     border: none;
     border-radius: 5px;
 }
+
+p.message{
+    max-height:0;
+    transition: max-height .5s linear, padding .25s .225s linear;
+    overflow: hidden;
+    margin: 1vh auto;
+    width: 99%;
+    font-size: 1.1em;
+}
+
+p.message span{
+    background-color: rgb(70, 70, 255);
+    padding: .2em;
+    font-family:'Trebuchet MS';
+    color: white;
+    min-width: 5vw;
+    text-align: center;
+    display: inline-block;
+}
+
+p.test{
+    max-height: 5vh !important;
+    background-color: rgb(255, 136, 0);
+    padding: .5em;
+}
+
